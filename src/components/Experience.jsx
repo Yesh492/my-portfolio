@@ -25,6 +25,17 @@ const jobs = [
     ],
   },
   {
+    company: 'Intellect Design Arena',
+    role: 'Software Engineer',
+    date: 'Jan 2024 – Jul 2024', /* Placeholder date since none was provided */
+    location: 'Chennai, India',
+    isAws: false,
+    bullets: [
+      <>Applied Generative AI and LangChain to develop internal models, designing and implementing comprehensive evaluation metrics to rigorously assess performance and effectiveness</>,
+      <>Bridged technical modelling with business requirements by fine-tuning models to deliver actionable insights, focusing on efficiency improvements in data interpretation and analysis</>,
+    ],
+  },
+  {
     company: 'Cloud Counselage Pvt. Ltd',
     role: 'Software Developer',
     date: 'Jul 2023 – Jun 2024',
