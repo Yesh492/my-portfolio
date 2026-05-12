@@ -27,7 +27,7 @@ const jobs = [
   {
     company: 'Intellect Design Arena',
     role: 'Software Engineer',
-    date: 'Jan 2024 – Jul 2024', /* Placeholder date since none was provided */
+    date: 'Aug 2024 – Jan 2025',
     location: 'Chennai, India',
     isAws: false,
     bullets: [
