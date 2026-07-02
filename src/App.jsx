@@ -54,7 +54,7 @@ export default function App() {
               </svg>
             </a>
             <a
-              href="mailto:yeshwanthnani492@gmail.com"
+              href="mailto:dyeshvanthk@gmail.com"
               aria-label="Email"
               className="text-[#334155] transition-colors duration-200"
               onMouseEnter={e => { e.currentTarget.style.color = '#60a5fa' }}

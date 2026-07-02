@@ -77,7 +77,7 @@ export default function Hero() {
           className="fade-up inline-flex items-center gap-2 px-4 py-1.5 mb-8 border border-[#16163a] rounded-full text-xs text-[#64748b] bg-[#0c0c18]/60"
         >
           <span className="pulse-dot w-2 h-2 rounded-full bg-[#10b981] shadow-[0_0_8px_#10b981]" />
-          Available for full-time roles starting May 2026
+          Available for full-time roles
         </div>
 
         {/* Name with soft pulsing glow behind it */}
@@ -148,7 +148,7 @@ export default function Hero() {
           className="fade-up delay-2 text-[#64748b] font-medium mb-6"
           style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: 'clamp(0.88rem, 1.5vw, 1.05rem)' }}
         >
-          MS Computer Science @ Cal State East Bay &nbsp;·&nbsp; Graduating May 2026
+          MS Computer Science @ Cal State East Bay &nbsp;·&nbsp; Graduated May 2026
         </p>
 
         {/* Statement */}
@@ -160,9 +160,9 @@ export default function Hero() {
           I'm a software engineer who builds at the intersection of{' '}
           <span className="text-[#60a5fa] font-semibold">foundational systems engineering</span>{' '}
           and <span className="text-[#60a5fa] font-semibold">modern AI</span>. I architect
-          cloud-scale infrastructure and ship production ML — and I accelerate all of it using
-          cutting-edge agentic tools like{' '}
-          <span className="text-[#a78bfa] font-semibold">Claude Code</span>, Cursor, Copilot, and MCP.
+          cloud-scale infrastructure, design distributed data pipelines, and ship production ML models.
+          Experienced across the stack, from{' '}
+          <span className="text-[#a78bfa] font-semibold">AWS backend architecture</span> to building autonomous robotic systems using tools like MCP and PyTorch.
         </p>
 
         {/* CTAs */}

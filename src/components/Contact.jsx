@@ -3,8 +3,8 @@ import { useFadeIn } from '../hooks/useFadeIn'
 const links = [
   {
     type: 'Email',
-    value: 'yeshwanthnani492@gmail.com',
-    href: 'mailto:yeshwanthnani492@gmail.com',
+    value: 'dyeshvanthk@gmail.com',
+    href: 'mailto:dyeshvanthk@gmail.com',
     hoverColor: '#60a5fa',
     hoverGlow: 'rgba(59,130,246,0.18)',
     hoverBorder: 'rgba(59,130,246,0.55)',
@@ -91,8 +91,7 @@ export default function Contact() {
           </div>
           <p className="text-[#64748b] text-base mb-10">
             Open to{' '}
-            <span className="text-[#60a5fa] font-semibold">full-time SWE, ML, and Cloud roles</span>{' '}
-            starting May 2026.
+            <span className="text-[#60a5fa] font-semibold">full-time SWE, ML, and Cloud roles</span>.
           </p>
         </div>
 
