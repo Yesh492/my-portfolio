@@ -3,17 +3,13 @@ import { useFadeIn } from '../hooks/useFadeIn'
 const projects = [
   {
     icon: '🧠',
-    name: 'Trust-Aware Enterprise RAG QA System',
+    name: 'Atlas AI — RAG Knowledge Platform',
     accentColor: '#3b82f6',
     glowColor: 'rgba(59,130,246,0.18)',
     borderHover: 'rgba(59,130,246,0.55)',
     description: (
       <>
-        Full-stack enterprise Q&A system with a <b className="text-[#60a5fa]">trust-aware RAG pipeline</b> featuring
-        citation verification and confidence scoring. Validated{' '}
-        <b className="text-[#60a5fa]">10x throughput</b> (100+ concurrent users), deployed on AWS with horizontal pod
-        autoscaling. Achieved <b className="text-[#60a5fa]">22% retrieval accuracy improvement</b> via Hybrid Search
-        (Dense + Sparse).
+        Built a full-stack RAG platform enabling natural-language search across document collections with citation-aware responses. Deployed on AWS with Docker, improving retrieval accuracy by <b className="text-[#60a5fa]">22%</b> over a dense-only baseline through hybrid dense-sparse search.
       </>
     ),
     tags: ['Python', 'FastAPI', 'React', 'FAISS', 'Docker', 'AWS'],
@@ -22,20 +18,17 @@ const projects = [
     tagBorder: 'rgba(59,130,246,0.22)',
   },
   {
-    icon: '👁️',
-    name: 'Mobile Stair Detection for Blind Navigation',
+    icon: '🚁',
+    name: 'SkyPilot AI — Autonomous Drone Mission Platform',
     accentColor: '#8b5cf6',
     glowColor: 'rgba(139,92,246,0.18)',
     borderHover: 'rgba(139,92,246,0.55)',
     description: (
       <>
-        Achieved <b className="text-[#a78bfa]">sub-200ms inference latency</b> (down from 600ms) on constrained mobile
-        hardware via YOLOv8 quantization and C++ optimization. Improved{' '}
-        <b className="text-[#a78bfa]">low-light detection accuracy by 18%</b> through IMU + computer vision sensor
-        fusion.
+        Developed an autonomous drone mission platform integrating Amazon Bedrock, ROS2, AWS IoT Core, and YOLOv8 for natural-language mission planning, real-time object detection, and cloud telemetry. Achieved <b className="text-[#a78bfa]">93% object detection accuracy</b> with sub-250ms end-to-end telemetry latency in simulation.
       </>
     ),
-    tags: ['C++', 'Python', 'YOLOv8', 'Android NDK', 'CUDA'],
+    tags: ['Python', 'ROS2', 'FastAPI', 'AWS IoT Core', 'Amazon Bedrock', 'YOLOv8'],
     tagColor: '#8b5cf6',
     tagBg: 'rgba(139,92,246,0.08)',
     tagBorder: 'rgba(139,92,246,0.22)',

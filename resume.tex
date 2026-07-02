@@ -1,0 +1,195 @@
+%-------------------------
+% Resume in Latex - Enhanced Hybrid (Improved XYZ Format)
+% Author : Jake Gutierrez (modified for Yeshvanth)
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\usepackage[letterpaper,top=14pt,bottom=14pt,left=34pt,right=34pt]{geometry}
+\usepackage{mathptmx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+%\input{glyphtounicode}
+
+%----------FONT / SIZE CONTROL----------
+\makeatletter
+\renewcommand\normalsize{%
+  \@setfontsize\normalsize{11pt}{12.5pt}%
+}
+\makeatother
+
+\newcommand{\namefont}{\fontsize{16}{19}\selectfont}
+\newcommand{\sectionfont}{\fontsize{10}{12}\selectfont}
+\newcommand{\subheaderfont}{\fontsize{11.5}{11}\selectfont}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{0pt}
+
+\setlist[itemize]{leftmargin=*, itemsep=0pt, topsep=1pt, parsep=0pt}
+
+\titleformat{\section}{
+  \vspace{1pt}\sectionfont\scshape\raggedright\bfseries
+}{}{0em}{}[\vspace{1pt}\color{black}\titlerule \vspace{0pt}]
+\titlespacing*{\section}{0pt}{2pt}{2pt}
+
+%\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-1pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{1pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      {\subheaderfont\textbf{#1}} & {\subheaderfont\textbf{#2}} \\
+      {\subheaderfont\textit{#3}} & {\subheaderfont\textit{#4}} \\
+    \end{tabular*}\vspace{0pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{1pt}\item
+    \begin{tabular*}{1.0\textwidth}{l@{\extracolsep{\fill}}r}
+      {\subheaderfont\textbf{#1}} & {\subheaderfont\textbf{#2}}\\
+    \end{tabular*}\vspace{0pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{1pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\normalsize
+
+%----------HEADING----------
+\begin{center}
+    {\normalfont\LARGE Yeshvanth Kumar Domala} \\ \vspace{2pt}
+    \small San Francisco Bay Area, CA \\ \vspace{2pt}
+    \small
+    510-362-8040 ~$|$~
+    \href{mailto:dyeshvanthk@gmail.com}{\underline{dyeshvanthk@gmail.com}} ~$|$~
+    \href{https://www.linkedin.com/in/yeshvanth-kumar/}{\underline{linkedin.com/in/yeshvanth-kumar}} ~$|$~
+    \href{https://github.com/Yesh492}{\underline{github.com/Yesh492}} ~$|$~
+    \href{https://www.yeshvanth.dev}{\underline{yeshvanth.dev}}
+\end{center}
+\vspace{-8pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {California State University, East Bay}{Aug 2024 -- May 2026}
+      {Master of Science in Computer Science}{Hayward, CA}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\resumeSubHeadingListStart
+  \item{
+    \textbf{Languages:} Python, Java, C++, TypeScript, JavaScript, SQL, Bash \\
+    \textbf{Distributed Systems \& Backend:} Apache Spark, Kafka, ETL Pipelines, FastAPI, Node.js, REST APIs \\
+    \textbf{Cloud \& DevOps:} AWS (Glue, Athena, Lambda, S3, Bedrock, DynamoDB, CDK), Docker, Kubernetes, Terraform, CI/CD \\
+    \textbf{AI/ML:} PyTorch, LangChain, RAG, FAISS, OpenCV, YOLOv8, MCP \\
+    \textbf{Databases:} PostgreSQL, MySQL, MongoDB, Redis \\
+    \textbf{Frontend \& Tools:} React, HTML/CSS, GraphQL, Git, Linux
+  }
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {California State University, East Bay}{Jan 2025 -- Present}
+      {Graduate Research Assistant -- Applied ML \& Robotics}{Hayward, CA}
+      \resumeItemListStart
+        \resumeItem{Accelerated robotic perception by 38\% through CUDA optimization on NVIDIA Jetson platforms, enabling real-time inference for autonomous robotic navigation.}
+        \resumeItem{Developed telemetry visualization and evaluation pipelines for LLM-enabled robotic systems using ROS2 and PyTorch, improving experiment reproducibility and streamlining debugging workflows.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Amazon Web Services (AWS) -- Aurora}{May 2025 -- Aug 2025}
+      {Software Development Engineer Intern}{Redmond, WA}
+      \resumeItemListStart
+        \resumeItem{Designed and deployed a distributed telemetry ETL platform processing 4--6 TB/hour of Amazon Aurora production logs using AWS Glue, Lambda, Athena, and S3, reducing manual investigation time by 90\%.}
+        \resumeItem{Engineered a schema-agnostic PySpark framework parsing 40--50 dynamic telemetry metrics into optimized Parquet and Amazon Ion datasets, reducing Athena storage costs by 75\% through partition projection and Zstandard compression.}
+        \resumeItem{Integrated Model Context Protocol (MCP) tooling to enable natural-language querying of production telemetry datasets, simplifying Athena SQL generation and improving engineering productivity.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Saama}{Jul 2023 -- Jul 2024}
+      {Software Engineer}{Pune, India}
+      \resumeItemListStart
+        \resumeItem{Engineered cloud-native data pipelines using Snowflake, StreamSets, and SQL for enterprise insurance datasets, supporting scalable analytics and financial reporting workflows.}
+        \resumeItem{Built reusable data transformation and validation components, reducing pipeline execution time by 35\% while improving downstream reporting reliability across multiple business teams.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Defense Research \& Development Organization (DRDO)}{May 2023 -- Jul 2023}
+      {Software Engineer Intern}{Hyderabad, India}
+      \resumeItemListStart
+        \resumeItem{Improved backend throughput by 20\% under high-concurrency workloads using asynchronous I/O and connection pooling in Node.js and C++.}
+        \resumeItem{Implemented centralized ELK-stack logging and automated testing pipelines, improving failure detection and reducing production incidents.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Atlas AI -- RAG Knowledge Platform} $|$ \emph{Python, FastAPI, React, FAISS, Docker, AWS}}{}
+          \resumeItemListStart
+            \resumeItem{Built a full-stack RAG platform enabling natural-language search across document collections with citation-aware responses; deployed on AWS with Docker, improving retrieval accuracy by 22\% over a dense-only baseline through hybrid dense-sparse search.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{SkyPilot AI -- Autonomous Drone Mission Platform} $|$ \emph{Python, ROS2, FastAPI, AWS IoT Core, Amazon Bedrock, YOLOv8}}{}
+          \resumeItemListStart
+            \resumeItem{Developed an autonomous drone mission platform integrating Amazon Bedrock, ROS2, AWS IoT Core, and YOLOv8 for natural-language mission planning, real-time object detection, and cloud telemetry.}
+            \resumeItem{Achieved 93\% object detection accuracy with sub-250\,ms end-to-end telemetry latency in simulation.}
+          \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------
+\section{Leadership}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Girl Up -- United Nations Foundation}{2020 -- 2023}
+      {Head of Research \& Documentation}{Remote}
+      \resumeItemListStart
+        \resumeItem{Led research and technical documentation for 15+ STEM initiatives across universities, developing AI/ML educational content that reached 500+ students and tripled workshop participation over two years.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+\end{document}
